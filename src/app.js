@@ -21,7 +21,7 @@ function App() {
   const handleRecommend = values => {
     window.recommendService.recommend(values).then(results => {
       setRecommendations(results);
-      setRecommendVisible(true);
+      setRecommendVisible(false);
     });
   };
 
