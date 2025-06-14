@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Bartender</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/5.13.7/reset.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/5.13.7/antd.min.css" />
+  <style>
+    body { padding: 20px; }
+    .drink-card img { width: 100%; height: 200px; object-fit: cover; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/antd/5.13.7/antd.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel" src="src/config/drinks.js"></script>
+  <script type="text/babel" src="src/services/recommendService.js"></script>
+  <script type="text/babel" src="src/components/DrinkCard.js"></script>
+  <script type="text/babel" src="src/components/RecommendForm.js"></script>
+  <script type="text/babel" src="src/components/Recommendations.js"></script>
+  <script type="text/babel" src="src/app.js"></script>
+</body>
+</html>
