@@ -22,7 +22,8 @@ Open `index.html` in any modern web browser. Internet access is required to load
 
 ### GitHub Pages
 
-The repository is configured with a GitHub Actions workflow that publishes the
-current `main` branch to GitHub Pages. Make sure GitHub Pages is enabled in the repository settings before the `Deploy GitHub Pages` workflow can create deployments. After changes are merged you can visit
+The repository is configured with a GitHub Actions workflow that publishes the current `main` branch to GitHub Pages. Make sure GitHub Pages is enabled in the repository settings before the `Deploy GitHub Pages` workflow can create deployments.
+If you just enabled GitHub Pages, re-run the **Deploy GitHub Pages** workflow (or push a new commit) so the deployment succeeds.
+After changes are merged you can visit
 `https://<username>.github.io/ai-bartender/` (replace `<username>` with your
 GitHub handle) to try the live demo.
